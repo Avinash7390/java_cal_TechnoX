@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="281.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.advanced_controller">
+   <children>
+      <TextField alignment="TOP_LEFT" prefHeight="102.0" prefWidth="265.0">
+         <VBox.margin>
+            <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+         </VBox.margin>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow height="46.31" radius="22.6525" spread="0.4" width="46.3">
+               <color>
+                  <Color red="0.025584794580936432" green="0.013807667419314384" blue="0.1315789520740509" />
+               </color>
+            </DropShadow>
+         </effect>
+      </TextField>
+      <HBox prefHeight="25.0" prefWidth="300.0" />
+      <HBox prefHeight="25.0" prefWidth="300.0">
+         <children>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" text="AC" textFill="#fb0606">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <effect>
+                  <SepiaTone level="0.0">
+                     <input>
+                        <InnerShadow />
+                     </input>
+                  </SepiaTone>
+               </effect>
+            </Button>
+            <Button minHeight="37.0" minWidth="40.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="41.0" text="CLEAR">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </Button>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" text="\%" textFill="#1377a1">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Button>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" text="/" textFill="#1377a1">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+               <effect>
+                  <ColorAdjust brightness="-0.43" saturation="-0.08" />
+               </effect>
+            </Button>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="59.0" text="PI" textFill="#c57e0c">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <HBox prefHeight="25.0" prefWidth="300.0">
+         <children>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" text="7" textFill="#3d0ab5">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold Italic" size="17.0" />
+               </font>
+            </Button>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" text="8" textFill="#3d0ab5">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold Italic" size="17.0" />
+               </font>
+            </Button>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" text="9" textFill="#3d0ab5">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold Italic" size="17.0" />
+               </font>
+            </Button>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" text="*" textFill="#1377a1">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+               <effect>
+                  <ColorAdjust brightness="-0.33" />
+               </effect>
+            </Button>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="62.0" text="Weight">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <effect>
+                  <DropShadow height="15.16" radius="7.08" spread="0.17" width="15.16">
+                     <color>
+                        <Color red="0.09021009504795074" green="0.4236336648464203" blue="0.859649121761322" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Button>
+         </children>
+      </HBox>
+      <HBox prefHeight="25.0" prefWidth="300.0">
+         <children>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" text="4" textFill="#3d0ab5">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold Italic" size="17.0" />
+               </font>
+            </Button>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" text="5" textFill="#3d0ab5">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold Italic" size="17.0" />
+               </font>
+            </Button>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" text="6" textFill="#3d0ab5">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold Italic" size="17.0" />
+               </font>
+            </Button>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" text="-" textFill="#1377a1">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+               <effect>
+                  <ColorAdjust brightness="-0.33" />
+               </effect>
+            </Button>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="63.0" text="Length">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <effect>
+                  <DropShadow height="15.16" radius="7.08" spread="0.17" width="15.16">
+                     <color>
+                        <Color red="0.09021009504795074" green="0.4236336648464203" blue="0.859649121761322" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Button>
+         </children>
+      </HBox>
+      <HBox prefHeight="25.0" prefWidth="300.0">
+         <children>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" text="1" textFill="#3d0ab5">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold Italic" size="17.0" />
+               </font>
+            </Button>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" text="2" textFill="#3d0ab5">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold Italic" size="17.0" />
+               </font>
+            </Button>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" text="3" textFill="#3d0ab5">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold Italic" size="17.0" />
+               </font>
+            </Button>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" text="+" textFill="#1377a1">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+               <effect>
+                  <ColorAdjust brightness="-0.33" />
+               </effect>
+            </Button>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" text="Currency">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <effect>
+                  <DropShadow height="15.16" radius="7.08" spread="0.17" width="15.16">
+                     <color>
+                        <Color red="0.09021009504795074" green="0.4236336648464203" blue="0.859649121761322" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Button>
+         </children>
+      </HBox>
+      <HBox prefHeight="25.0" prefWidth="300.0">
+         <children>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" text="0" textFill="#3d0ab5">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold Italic" size="17.0" />
+               </font>
+            </Button>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" text=".">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <effect>
+                  <InnerShadow>
+                     <color>
+                        <Color red="0.2394186407327652" green="0.18383149802684784" blue="0.8508771657943726" />
+                     </color>
+                  </InnerShadow>
+               </effect>
+            </Button>
+            <Button fx:id="equal1234" minHeight="40.0" minWidth="40.0" mnemonicParsing="false" onAction="#onbuttonclick" text="=" textFill="#1377a1">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+               <effect>
+                  <InnerShadow>
+                     <color>
+                        <Color red="0.2394186407327652" green="0.18383149802684784" blue="0.8508771657943726" />
+                     </color>
+                  </InnerShadow>
+               </effect>
+            </Button>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" text="sin" textFill="#a30f48">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Italic" size="14.0" />
+               </font>
+            </Button>
+            <Button minHeight="38.0" minWidth="40.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="63.0" text="cosec" textFill="#a30f48">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Italic" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <HBox prefHeight="25.0" prefWidth="300.0">
+         <children>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" text="tan" textFill="#a30f48">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Italic" size="14.0" />
+               </font>
+            </Button>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" text="cot" textFill="#a30f48">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Italic" size="14.0" />
+               </font>
+            </Button>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" text="cos" textFill="#a30f48">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Italic" size="14.0" />
+               </font>
+            </Button>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="42.0" text="sec" textFill="#a30f48">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Italic" size="14.0" />
+               </font>
+            </Button>
+            <Button minHeight="37.0" minWidth="40.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="61.0" text="e" textFill="#571717">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <HBox prefHeight="25.0" prefWidth="300.0">
+         <children>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" text=")" textFill="#3c8d55">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <effect>
+                  <SepiaTone level="0.23" />
+               </effect>
+            </Button>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" text="(" textFill="#3c8d55">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <effect>
+                  <SepiaTone level="0.23" />
+               </effect>
+            </Button>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" text="{" textFill="#3c8d55">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <effect>
+                  <SepiaTone level="0.23" />
+               </effect>
+            </Button>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" text="}" textFill="#3c8d55">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <effect>
+                  <SepiaTone level="0.23" />
+               </effect>
+            </Button>
+            <Button minHeight="37.0" minWidth="40.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="63.0" text="[" textFill="#3c8d55">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <effect>
+                  <SepiaTone level="0.23" />
+               </effect>
+            </Button>
+         </children>
+      </HBox>
+      <HBox prefHeight="25.0" prefWidth="300.0">
+         <children>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" text="]" textFill="#3c8d55">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <effect>
+                  <SepiaTone level="0.23" />
+               </effect>
+            </Button>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" text="^" textFill="#590c57">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold Italic" size="15.0" />
+               </font>
+               <effect>
+                  <SepiaTone level="0.23" />
+               </effect>
+            </Button>
+            <Button minHeight="40.0" minWidth="40.0" mnemonicParsing="false" text="log" textFill="#767d11">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Button>
+            <Button minHeight="39.0" minWidth="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="112.0" text="Base conversion" textFill="#1b0101">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <effect>
+                  <DisplacementMap>
+                     <mapData>
+                        <FloatMap />
+                     </mapData>
+                  </DisplacementMap>
+               </effect>
+            </Button>
+         </children>
+      </HBox>
+      <HBox prefHeight="25.0" prefWidth="300.0" />
+   </children>
+</VBox>
